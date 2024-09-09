@@ -12,6 +12,6 @@ This is a modern calculator web application with enhanced functionality and an i
 
 ## Demo
 
-[Publish Link](https://awasumina.github.io/WLiT-Calculator/)
+[Github.io Publish Link](https://awasumina.github.io/WLiT-Calculator/)
 
 
