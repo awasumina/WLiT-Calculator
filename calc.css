@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #3a3a3a, #282c34);
+}
+
+.container {
+    text-align: center;
+    color: white;
+}
+
+.calculator {
+    display: inline-block;
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+    max-width: 350px;
+}
+
+.display {
+    position: relative;
+    margin-bottom: 20px;
+    height: 120px;
+}
+
+#inputbox {
+    width: 100%;
+    padding: 20px;
+    font-size: 2rem;
+    text-align: right;
+    margin-bottom: 0;
+    border: none;
+    background: #333;
+    color: white;
+    border-radius: 10px;
+    height: 60px;
+}
+
+.history {
+    font-size: 1rem;
+    color: #bbb;
+    text-align: right;
+    padding-right: 10px;
+    height: 40px;
+    overflow: hidden;
+    margin-bottom: 5px;
+}
+
+.button-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
+
+button {
+    height: 60px;
+    width: 60px;
+    font-size: 1.5rem;
+    background: #444;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: inset 2px 2px 5px rgba(255, 255, 255, 0.1), 
+                -2px -2px 5px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    transform: scale(1.1);
+    background: #555;
+}
+
+.memory-btn {
+    background-color: #6c5ce7;
+    color: #fff;
+}
+
+.extra-func {
+    background-color: #fd79a8;
+    color: #fff;
+}
+
+.equal-btn {
+    background-color: #f39c12;
+}
+
+.operator {
+    background-color: #1abc9c;
+}
+
+.delete-btn {
+    background-color: #e74c3c;
+}
